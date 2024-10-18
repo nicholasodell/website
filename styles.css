@@ -61,6 +61,7 @@ nav ul li a {
     background: #007bff;
     color: white;
     padding: 15px 15px;
+    margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
