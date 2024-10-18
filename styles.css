@@ -17,6 +17,9 @@ header {
     text-align: center;
 }
 
+p {
+    padding: 0px 10px;
+    
 nav ul {
     list-style: none;
 }
