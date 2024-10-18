@@ -64,9 +64,9 @@ nav ul li a {
 .btn {
     background: #007bff;
     color: white;
-    padding: 15px 0px;
+    padding: 10px 0px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .btn:hover {
