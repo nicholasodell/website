@@ -16,9 +16,6 @@ header {
     padding: 20px 0;
     text-align: center;
 }
-
-p {
-    padding: 0px 10px;
     
 nav ul {
     list-style: none;
@@ -64,7 +61,7 @@ nav ul li a {
     background: #007bff;
     color: white;
     padding: 15px 15px;
-    margin-top: 10px;
+    margin: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
