@@ -29,7 +29,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
-    padding: 10px 0 3px 3px
+    padding: 10px 0;
 }
 
 nav ul li a {
