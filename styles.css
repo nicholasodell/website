@@ -117,6 +117,27 @@ a:hover {
   margin-bottom: 30px;
 }
 
+#webprojectimg {
+  background-image: url();
+  background-position: centered;
+  background-repeat: no;
+    
+}
+
+  #itcertificationsimg {
+  background-image: url();
+  background-position: centered;
+  background-repeat: no;
+    
+}
+
+#securityprojectsimg {
+  background-image: url();
+  background-position: centered;
+  background-repeat: no;
+    
+}
+    
 footer {
   display: flex;
   justify-content: center;
