@@ -117,26 +117,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
-#webprojectsimg {
-  background-image: url(webprojectsimg.png);
-  background-position: centered;
-  background-repeat: no;
-    
-}
 
-  #itcertificationsimg {
-  background-image: url(itcertificationsimg.jpg);
-  background-position: centered;
-  background-repeat: no;
-    
-}
-
-#securityprojectsimg {
-  background-image: url(securityprojectsimg.jpg);
-  background-position: centered;
-  background-repeat: no;
-    
-}
     
 footer {
   display: flex;
