@@ -20,6 +20,7 @@ main {
   flex-direction: column;
   width: 100%;
   gap: 30px;
+  background-color: #121212;
 }
 
 header {
