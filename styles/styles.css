@@ -140,6 +140,7 @@ a:hover {
 .project-item {
   display: flex;
   padding: 15px;
+<<<<<<< HEAD:styles.css
 }
 
 .project-image {
@@ -147,6 +148,8 @@ a:hover {
   width: 90%;
   aspect-ratio: 16/9;
 
+=======
+>>>>>>> dee23eb (removing other pr commits):styles/styles.css
 }
 
 #about {
@@ -188,9 +191,101 @@ footer {
   font-size: 0.825rem;
 }
 
+<<<<<<< HEAD:styles.css
+=======
+/* IT Certs */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.page-title {
+  padding: 20px 0;
+}
+
+.certificates-container {
+  display: flex;
+  width: 100%;
+  gap: 18px;
+  flex-direction: column;
+}
+
+.certificates-container .certification-item {
+  padding: 16px;
+  border-radius: 15px;
+  background-color: #2d3436;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certification-item {
+  display: flex;
+  gap: 16px;
+}
+
+.certification-item img {
+  aspect-ratio: 4/3;
+  max-width: 170px;
+  object-fit: cover;
+}
+
+/* .certification-details > .description {
+  margin-bottom: 10px;
+} */
+
+.verify-link {
+  margin-top: 20px !important;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+
+>>>>>>> dee23eb (removing other pr commits):styles/styles.css
 @media screen and (orientation: portrait) and (max-width: 768px) {
   .contact-grid {
     flex-direction: column;
     gap: 30px;
   }
 }
+<<<<<<< HEAD:styles.css
+=======
+
+@media screen and (min-width: 768px) {
+  .certificates-container {
+    display: flex;
+    width: 100%;
+    gap: 18px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .certificates-container .certification-item:nth-child(3n + 1) {
+    flex: 0 0 calc(100% - 18px);
+  }
+
+  .certificates-container .certification-item {
+    flex: 0 0 calc(50% - 18px);
+    padding: 16px;
+    border-radius: 15px;
+    background-color: #2d3436;
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+  }
+
+  .certification-item img {
+    aspect-ratio: 4/3;
+    max-width: 170px;
+    object-fit: contain;
+  }
+
+  .verify-link {
+    margin: 0;
+  }
+}
+>>>>>>> dee23eb (removing other pr commits):styles/styles.css
