@@ -142,6 +142,11 @@ a:hover {
   padding: 15px;
 }
 
+.project-image {
+  height: 70%;
+  width: 90%;
+  aspect-ratio: 16/9;
+
 #about {
   display: flex;
   justify-content: center;
