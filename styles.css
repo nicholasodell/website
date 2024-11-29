@@ -9,7 +9,6 @@ body {
     sans-serif;
   color: #ffffff;
   line-height: 1.6;
-  height: 100svh;
   background: url("binary-swirl.png") no-repeat center fixed;
   background-size: cover;
   background-color: #121212;
@@ -22,12 +21,14 @@ main {
   flex-direction: column;
   width: 100%;
   gap: 30px;
-
 }
 
 header {
-  padding: 15px 0;
+  padding: 15px 0px;
   text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #121212;
 }
 
 h2 {
@@ -39,50 +40,18 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 50px;
+  gap: 30px;
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+  padding: 0px 20px;
 }
 
 a:hover {
   color: #007bff;
-}
-
-#hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  flex-direction: column;
-  height: 200px;
-  text-align: center;
-}
-
-.project-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: 100%;
-}
-
-.projects-title {
-  padding: 10px;
-}
-
-.project {
-  display: flex;
-  padding: 15px;
-  width: 30%;
-  min-width: 350px;
-  align-items: center;
-  flex-direction: column;
-  flex: 1 1 0%;
-  gap: 10px;
 }
 
 .btn {
@@ -98,6 +67,46 @@ a:hover {
 .btn:hover {
   background: #0056b3;
   color: white;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  height: 200px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.project {
+  display: flex;
+  padding: 15px;
+  width: 30%;
+  min-width: 350px;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projects-title {
+  padding: 10px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.project-image {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .certification-image {
@@ -118,7 +127,6 @@ a:hover {
   display: flex;
   padding: 15px;
   flex-direction: column;
-
 }
 
 .project-list {
@@ -127,13 +135,11 @@ a:hover {
   align-items: left;
   justify-content: left;
   flex-direction: column;
-
 }
 
 .project-item {
   display: flex;
   padding: 15px;
-  
 }
 
 #about {
@@ -142,15 +148,27 @@ a:hover {
   gap: 30px;
   flex-direction: column;
   text-align: center;
+  line-height: 2;
 }
 
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
-  gap: 15px;
   margin-bottom: 30px;
+  gap: 30px;
+}
+
+.contact-grid {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-grid > a {
+  padding: 10px;
 }
 
 footer {
@@ -161,4 +179,11 @@ footer {
   text-align: center;
   height: 60px;
   font-size: 0.825rem;
+}
+
+@media screen and (orientation: portrait) and (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
