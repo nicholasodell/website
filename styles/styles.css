@@ -7,9 +7,9 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
     sans-serif;
-  color: #ffffff;
+  color: #eeeeee;
   line-height: 1.6;
-  background: url("binary-swirl.png") no-repeat center fixed;
+  background: url("../images/binary-swirl.png") no-repeat center fixed;
   background-size: cover;
   background-color: #121212;
   background-origin: content-box;
@@ -44,7 +44,7 @@ nav {
 }
 
 a {
-  color: #ffffff;
+  color: #eeeeee;
   text-decoration: none;
   font-weight: bold;
   padding: 0px 20px;
@@ -55,8 +55,8 @@ a:hover {
 }
 
 .btn {
-  background: #007bff;
-  color: white;
+  background: #31363f;
+  color: EEEEEE;
   padding: 10px;
   text-align: center;
   text-decoration: none;
@@ -65,8 +65,8 @@ a:hover {
 }
 
 .btn:hover {
-  background: #0056b3;
-  color: white;
+  background: #76abae;
+  color: #eeeeee;
 }
 
 #hero {
@@ -107,6 +107,7 @@ a:hover {
   object-fit: cover;
   width: 100%;
   height: auto;
+  border-radius: 7px;
 }
 
 .certification-image {
@@ -140,24 +141,6 @@ a:hover {
 .project-item {
   display: flex;
   padding: 15px;
-<<<<<<< HEAD:styles.css
-}
-
-.project-image {
-  height: 70%;
-  width: 90%;
-  aspect-ratio: 16/9;
-
-=======
->>>>>>> dee23eb (removing other pr commits):styles/styles.css
-}
-
-.project-image {
-  height: 70%;
-  width: 90%;
-  aspect-ratio: 16/9;
-  
-  
 }
 
 #about {
@@ -199,8 +182,6 @@ footer {
   font-size: 0.825rem;
 }
 
-<<<<<<< HEAD:styles.css
-=======
 /* IT Certs */
 
 .container {
@@ -224,7 +205,7 @@ footer {
 .certificates-container .certification-item {
   padding: 16px;
   border-radius: 15px;
-  background-color: #2d3436;
+  background-color: #222831;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,10 +222,6 @@ footer {
   object-fit: cover;
 }
 
-/* .certification-details > .description {
-  margin-bottom: 10px;
-} */
-
 .verify-link {
   margin-top: 20px !important;
   display: block;
@@ -253,15 +230,14 @@ footer {
 
 /* Media Queries */
 
->>>>>>> dee23eb (removing other pr commits):styles/styles.css
 @media screen and (orientation: portrait) and (max-width: 768px) {
   .contact-grid {
     flex-direction: column;
     gap: 30px;
   }
 }
-<<<<<<< HEAD:styles.css
-=======
+
+/* This is for desktop view */
 
 @media screen and (min-width: 768px) {
   .certificates-container {
@@ -280,7 +256,6 @@ footer {
     flex: 0 0 calc(50% - 18px);
     padding: 16px;
     border-radius: 15px;
-    background-color: #2d3436;
     flex-direction: row;
     display: flex;
     gap: 15px;
@@ -288,12 +263,18 @@ footer {
 
   .certification-item img {
     aspect-ratio: 4/3;
-    max-width: 170px;
+    max-width: 150px;
     object-fit: contain;
+  }
+
+  .certification-details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .verify-link {
     margin: 0;
   }
 }
->>>>>>> dee23eb (removing other pr commits):styles/styles.css
